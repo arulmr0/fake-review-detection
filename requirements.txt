@@ -1,0 +1,15 @@
+# Core dependencies. Pinned to minor versions so that a result recorded
+# in results/results.csv can be reproduced from the commit hash alone.
+# The transformer stack is deliberately NOT here: a fresh clone must be
+# able to run the classical baselines and the full test suite without a
+# multi-gigabyte download. See requirements-transformer.txt.
+
+pandas>=2.2,<3.1
+numpy>=1.26,<3.0
+scikit-learn>=1.5,<2.0
+matplotlib>=3.8,<4.0
+joblib>=1.4,<2.0
+
+# Testing and linting
+pytest>=8.0,<9.0
+ruff>=0.6,<1.0

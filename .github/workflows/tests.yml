@@ -1,0 +1,48 @@
+name: tests
+
+# CI must run without network access to the real corpora: the two early
+# failures in Week 8 were caused by tests that assumed data/ was
+# populated. Tests read the committed fixtures in tests/fixtures instead.
+
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+    branches: [main, dev]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install -e .
+
+      - name: Lint
+        run: ruff check src tests
+
+      - name: Test
+        run: pytest -q
+
+      - name: Smoke-test the pipeline end to end
+        run: |
+          python -m frd.make_synthetic --n 200
+          python -m frd.experiments --human synthetic_human --machine synthetic_machine --vectorisers word
+          python -m frd.figures
+          python -m frd.cli train --human synthetic_human --machine synthetic_machine
+          python -m frd.cli predict "Best hotel ever, five stars is not enough!"

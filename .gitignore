@@ -1,0 +1,35 @@
+# Datasets are not committed: one file exceeds GitHub's 100 MB limit,
+# both are publicly downloadable, and Git LFS was evaluated and rejected.
+# data/README.md records the source, licence and checksum of each file.
+data/*
+!data/README.md
+
+# Trained models and large artefacts
+models/
+*.joblib
+*.pt
+*.bin
+
+# Generated results are kept, figures are kept; scratch is not
+results/scratch/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+*.key
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

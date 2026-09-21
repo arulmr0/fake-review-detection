@@ -1,0 +1,11 @@
+# Optional stack for src/frd/transformer.py. Not needed for the
+# classical baselines, the CLI, or the test suite.
+# A GPU is strongly recommended: roberta-base would not fit in laptop
+# memory (Journal 1), so distilroberta-base on a free-tier T4 is the
+# working configuration.
+-r requirements.txt
+
+torch>=2.2
+transformers>=4.44
+datasets>=2.20
+accelerate>=0.33
