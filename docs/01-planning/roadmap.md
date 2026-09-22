@@ -56,7 +56,7 @@ Journal 4
 
 ## Dependencies worth naming
 
-- Everything experimental depends on the preprocessing pipeline (#12).
+- Everything experimental depends on the preprocessing pipeline (#13).
   It was scheduled first for that reason.
 - The D2 video depends on the pipeline running end to end on screen, so
   the video could not be recorded before the baselines worked.
@@ -71,7 +71,7 @@ Journal 4
 - A baseline classifier was planned for W4 and arrived in W5. The
   rejected large-file push and the failed local transformer load
   accounted for most of the difference.
-- SMOTE oversampling (#19) cost two days and produced a negative result.
+- SMOTE oversampling (#44) cost two days and produced a negative result.
   Kept in the report as the evidence for not resampling.
 - MLflow and DVC were each adopted and dropped. Rule adopted after the
   second one: at most half a day evaluating a new tool before deciding.
