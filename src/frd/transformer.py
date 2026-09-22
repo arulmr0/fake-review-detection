@@ -10,7 +10,7 @@ Loading ``roberta-base`` locally failed with an out-of-memory error in
 Week 4, which is why the default here is ``distilroberta-base`` with a
 short sequence length and small batch. Three epochs takes roughly twelve
 minutes on a free-tier T4, and checkpointing is on because a lost session
-cost a full run in Week 6 (issue #18).
+cost a full run in Week 6 (issue #43).
 """
 
 from __future__ import annotations
