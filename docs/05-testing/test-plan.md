@@ -28,7 +28,7 @@ choice in a form that cannot be forgotten.
 
 No network access to the real corpora, so tests read the 60-row
 fixtures committed in `tests/fixtures/`. Two early CI runs failed
-because tests assumed `data/` was populated (issue #31); the fixtures
+because tests assumed `data/` was populated (issue #39); the fixtures
 are the fix. CI also smoke-tests the whole pipeline — generate, run
 experiments, make figures, train, predict — so a break in the wiring
 between modules fails the build even when every unit test passes.
