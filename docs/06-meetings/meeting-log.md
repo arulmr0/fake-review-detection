@@ -92,6 +92,6 @@ Final versions confirmed; submitting on the 24th.
 
 - Six supervision meetings on the agreed pattern, from 1 October.
 - Four project journals submitted on Canvas.
-- 47 issues with dated open and close records; 4 milestones closed.
+- 48 issues with dated open and close records; 4 milestones closed.
 - One tagged release, `v0.2.0-feasibility`, reproduced from a clean
   clone before tagging.
