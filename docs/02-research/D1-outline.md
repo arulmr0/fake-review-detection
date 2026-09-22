@@ -11,7 +11,7 @@ the submitted document itself is `D1-report.docx` in this folder.
 | 3 | Literature review | 2,000 | `literature.md`, 14-study synthesis table | final |
 | 4 | Requirements | 600 | `docs/01-planning/moscow-requirements.md` | final |
 | 5 | Proposed methodology | 800 | `src/frd/`, Dietterich (1998) for the Semester 2 analysis | final |
-| 6 | Feasibility evidence | 700 | `results/results.csv`, `results/figures/` | final |
+| 6 | Feasibility evidence | 700 | `feasibility-study.md`, `results/results.csv`, `results/figures/` | final |
 | 7 | Project plan | 400 | `docs/01-planning/roadmap.md`, milestones | final |
 | 8 | Risks | 300 | `docs/01-planning/risk-register.md` | final |
 | 9 | Professional, legal and ethical issues | 400 | `docs/04-ethics/` | final |
