@@ -48,7 +48,7 @@ and are the version used in D1.
 scikit-learn `Pipeline` whose first step is the vectoriser. Fitting a
 vectoriser on the whole corpus before splitting leaks test vocabulary
 into training and inflates every score. This cost a day in Week 5
-(issue #14) and is now guarded by a test.
+(issue #7) and is now guarded by a test.
 
 **One canonical schema.** Every loader returns `text` / `label` /
 `source`, so adding a third corpus in Semester 2 needs a `DatasetSpec`
@@ -73,4 +73,4 @@ handled inside the vectoriser, where it can be switched per run.
 ## Semester 2
 
 The demonstrator loads the same saved model the CLI produces, so no
-model code changes. The spike is on `spike/streamlit` (issue #49).
+model code changes. The spike is on `spike/streamlit` (issue #36).
