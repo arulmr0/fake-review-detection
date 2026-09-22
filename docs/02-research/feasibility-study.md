@@ -439,17 +439,3 @@ That failure did occur, in Week 5, and was caught (#7). Catching it is
 the strongest single piece of feasibility evidence in this document,
 because it shows the criteria are doing work rather than describing what
 already happened.
-
----
-
-## Where each rubric clause is evidenced
-
-| Rubric clause | Section | Repository evidence |
-|---|---|---|
-| Showcase of preparation work | §1 | Issue history with dated open/close, `docs/01-planning/` |
-| Methods/tools justified against alternatives | §2 | `docs/03-design/architecture.md`, discarded spikes |
-| Feasibility demonstrated with strong evidence | §3 | `results/results.csv`, `results/figures/`, `make demo`, #38 |
-| Realistic plan, clear dependencies and contingencies | §4 | `docs/01-planning/roadmap.md`, milestones, board |
-| Risks quantified, specific mitigations and contingency paths | §5 | `docs/01-planning/risk-register.md` |
-| Professional, legal/regulatory, ethical, social | §6 | `docs/04-ethics/`, `data/README.md` |
-| Success criteria defined and argued | §7 | `docs/01-planning/scope-statement.md`, #38 |
