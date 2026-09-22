@@ -3,7 +3,7 @@
 Four configurations are compared in Semester 1. The three classical ones
 are built here as scikit-learn pipelines so that vectorisation happens
 *inside* the cross-validation fold -- fitting the vectoriser on the whole
-corpus first is the leak that cost a day in Week 5 (issue #14).
+corpus first is the leak that cost a day in Week 5 (issue #7).
 
 The transformer lives in ``frd.transformer`` because it needs optional
 dependencies and a GPU to be practical.
