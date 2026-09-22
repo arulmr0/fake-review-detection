@@ -4,7 +4,7 @@ Tests never touch ``data/``: they read the committed fixture in
 ``tests/fixtures`` instead. That fixture is tiny and generated, which is
 what lets continuous integration run with no network access -- the two
 CI failures in Week 8 were caused by tests that assumed the real corpora
-were present (issue #31).
+were present (issue #39).
 """
 
 from pathlib import Path
