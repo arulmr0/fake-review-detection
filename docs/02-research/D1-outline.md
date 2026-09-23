@@ -1,6 +1,6 @@
 # D1 — Project Proposal and Research Report
 
-**Submitted 24 November 2026** (deadline 26 November). Approx. 6,000
+**Submitted 24 November 2026** (deadline 26 November). Approx. xxxx
 words. This file is the working outline and section-by-section status;
 the submitted document itself is `D1-report.docx` in this folder.
 
