@@ -1,4 +1,6 @@
 # Design
+<img width="1240" height="1060" alt="image" src="https://github.com/user-attachments/assets/ec1830c8-1e88-49ea-b6c4-521c9932f75e" />
+
 
 ## Components
 
