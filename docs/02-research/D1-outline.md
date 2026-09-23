@@ -6,15 +6,15 @@ the submitted document itself is `D1-report.docx` in this folder.
 
 | # | Section | Words | Evidence it rests on | Status |
 |---|---|---|---|---|
-| 1 | Introduction and motivation | 700 | — | final |
-| 2 | Aims and objectives | 400 | `docs/01-planning/scope-statement.md` | final |
-| 3 | Literature review | 2,000 | `literature.md`, 14-study synthesis table | final |
-| 4 | Requirements | 600 | `docs/01-planning/moscow-requirements.md` | final |
-| 5 | Proposed methodology | 800 | `src/frd/`, Dietterich (1998) for the Semester 2 analysis | final |
-| 6 | Feasibility evidence | 700 | `feasibility-study.md`, `results/results.csv`, `results/figures/` | final |
-| 7 | Project plan | 400 | `docs/01-planning/roadmap.md`, milestones | final |
-| 8 | Risks | 300 | `docs/01-planning/risk-register.md` | final |
-| 9 | Professional, legal and ethical issues | 400 | `docs/04-ethics/` | final |
+| 1 | Introduction and motivation |  | — | final |
+| 2 | Aims and objectives |  | `docs/01-planning/scope-statement.md` | final |
+| 3 | Literature review |  | `literature.md`, 14-study synthesis table | final |
+| 4 | Requirements |  | `docs/01-planning/moscow-requirements.md` | final |
+| 5 | Proposed methodology |  | `src/frd/`, Dietterich (1998) for the Semester 2 analysis | final |
+| 6 | Feasibility evidence |  | `feasibility-study.md`, `results/results.csv`, `results/figures/` | final |
+| 7 | Project plan |  | `docs/01-planning/roadmap.md`, milestones | final |
+| 8 | Risks |  | `docs/01-planning/risk-register.md` | final |
+| 9 | Professional, legal and ethical issues |  | `docs/04-ethics/` | final |
 | 10 | References | — | Zotero, generated not typed | final |
 | A | Appendix A — full results tables | — | moved here after 19 Nov feedback | final |
 | B | Appendix B — issue export and milestone burndown (D4 evidence) | — | `docs/06-meetings/` | final |
