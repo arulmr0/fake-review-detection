@@ -2,47 +2,6 @@
 <img width="1240" height="1060" alt="image" src="https://github.com/user-attachments/assets/ec1830c8-1e88-49ea-b6c4-521c9932f75e" />
 
 
-## Components
-
-```
-                 +---------------------+
-  data/  ---->   |  datasets.py        |  text / label / source
-                 |  loaders + specs    |
-                 +----------+----------+
-                            |
-                 +----------v----------+
-                 |  preprocess.py      |  clean, dedupe, stratified split
-                 +----------+----------+
-                            |
-            +---------------+---------------+
-            |                               |
- +----------v----------+        +-----------v-----------+
- |  models.py          |        |  transformer.py       |
- |  TF-IDF pipelines   |        |  distilroberta        |
- |  LR / SVM / RF      |        |  (optional deps, GPU) |
- +----------+----------+        +-----------+-----------+
-            |                               |
-            +---------------+---------------+
-                            |
-                 +----------v----------+
-                 |  evaluate.py        |  macro-F1, per-class, confusion
-                 +----------+----------+
-                            |
-        +-------------------+-------------------+
-        |                                       |
-+-------v--------+                    +---------v---------+
-| experiments.py |  results.csv  ---> |   figures.py      |
-| within / cross |  (+ commit hash)   |   PNG figures     |
-| / combined     |                    +-------------------+
-+-------+--------+
-        |
- +------v-------+
- |   cli.py     |  the artefact: train / predict / info
- +--------------+
-```
-
-The UML component diagram and its `.drawio` source live beside this file
-and are the version used in D1.
 
 ## Decisions worth recording
 
